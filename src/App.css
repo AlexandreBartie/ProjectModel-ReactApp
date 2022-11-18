@@ -1,0 +1,18 @@
+* 
+{
+   margin: 10;
+   padding: 10;
+   outline: 10;
+   box-sizing: border-box;  
+}
+
+body
+{
+  font-family: sans-serif;
+  background: bisque;
+}
+
+button
+{
+  cursor: pointer;
+}

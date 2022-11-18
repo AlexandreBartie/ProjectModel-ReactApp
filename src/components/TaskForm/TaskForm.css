@@ -1,0 +1,83 @@
+.TaskForm-Title
+{
+    background: burlywood;
+    padding: 30px;
+    margin:50px auto;
+    max-width: 500px;
+    border-radius: 4px;
+    box-shadow: 0 0 20px white;
+}
+
+.TaskForm-Title h1
+{
+    font-size: 40px;
+    text-align: center;
+
+}
+
+.TaskForm-Input
+{
+    margin-top:50px auto;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.TaskForm-Input input[type="text"]
+{
+    height:40px;
+    padding: 0 20px;
+    font-size: 20px;
+    border: 1px solid chocolate;
+    min-width: 80%;
+}
+
+.TaskForm-Input button[type="submit"]
+{
+    border:none;
+    height:40px;
+    width:40px;
+    border: 1px solid chocolate;
+    background: coral;
+    color: whitesmoke;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.TaskForm-List
+{
+    margin-top:30px;
+}
+
+.TaskForm-List li
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5px;
+    transition: all 200ms;
+}
+
+.TaskForm-List li span
+{
+    display:flex;
+    align-items: center;
+}
+
+
+.TaskForm-List li:hover
+{
+    background: chocolate;
+}
+
+.TaskForm-List li .actionEdit
+{
+    margin-right: 15px;
+}
+
+.TaskForm-List li .actionEdit,
+.TaskForm-List li .actionDelete
+{
+    cursor: pointer;
+}
